@@ -534,7 +534,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
             - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
         - [x] size() - number of items
         - [x] capacity() - number of items it can hold
-        - [ ] is_empty()
+        - [x] is_empty()
         - [x] at(index) - returns item at given index, blows up if index out of bounds
         - [x] push(item)
         - [x] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
@@ -546,10 +546,10 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [x] resize(new_capacity) // private function
             - when you reach capacity, resize to double the size
             - when popping an item, if size is 1/4 of capacity, resize to half
-    - [ ] Time
+    - [x] Time
         - O(1) to add/remove at end (amortized for allocations for more space), index, or update
         - O(n) to insert/remove elsewhere
-    - [ ] Space
+    - [x] Space
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
